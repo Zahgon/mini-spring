@@ -58,6 +58,18 @@ If this project helps you, please give it a **STAR, thank you!!!**
 * [Properties not set for proxy beans (discovered and fixed by kerwin89)](https://github.com/DerekYRC/mini-spring/blob/main/changelog.md#bug-fix没有为代理bean设置属性discovered-and-fixed-by-kerwin89)
 * [Support for lazy loading and multi-aspect enhancement (by zqczgl)](https://github.com/DerekYRC/mini-spring/blob/main/changelog.md#支持懒加载和多切面增强by-zqczgl)
 
+## Build and test
+
+mini-spring is written in TypeScript and runs on Node.js 20.11 or later.
+
+```bash
+npm install       # install the dependencies
+npm run typecheck # type-check under the strictest compiler settings
+npm test          # run the test suite
+npm run coverage  # run the test suite and report coverage
+npm run build     # emit JavaScript and declarations into dist/
+```
+
 ## Usage
 Read [changelog.md](https://github.com/DerekYRC/mini-spring/blob/main/changelog_en.md)
 

@@ -1,3 +1,6 @@
+> **说明**：本文是mini-spring的开发历程，其中的代码片段来自最初的Java实现。
+> 本仓库现已迁移到TypeScript，行为保持一致；实际代码请参见`src/`目录。
+
  # [基础篇：IoC](#基础篇IoC)
  ## [最简单的bean容器](#最简单的bean容器)
  > 代码分支：simple-bean-container

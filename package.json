@@ -1,0 +1,42 @@
+{
+  "name": "mini-spring",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "A simplified version of the Spring Framework, ported to TypeScript",
+  "homepage": "https://github.com/DerekYRC/mini-spring",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "clean": "tsc --build tsconfig.build.json --clean"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@vitest/coverage-v8": "^5.0.0",
+    "typescript": "^5.7.2",
+    "vitest": "^5.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

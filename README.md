@@ -59,6 +59,18 @@
 * [没有为代理bean设置属性(discovered and fixed by kerwin89)](https://github.com/DerekYRC/mini-spring/blob/main/changelog.md#bug-fix没有为代理bean设置属性discovered-and-fixed-by-kerwin89)
 * [支持懒加载和多切面增强(by zqczgl)](https://github.com/DerekYRC/mini-spring/blob/main/changelog.md#支持懒加载和多切面增强by-zqczgl)
 
+## 构建和测试
+
+mini-spring使用TypeScript编写，需要Node.js 20.11或以上版本。
+
+```bash
+npm install       # 安装依赖
+npm run typecheck # 以最严格的编译选项做类型检查
+npm test          # 运行测试
+npm run coverage  # 运行测试并统计覆盖率
+npm run build     # 编译输出到dist/目录
+```
+
 ## 使用方法
 阅读[changelog.md](https://github.com/DerekYRC/mini-spring/blob/main/changelog.md)
 

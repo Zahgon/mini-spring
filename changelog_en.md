@@ -1,3 +1,8 @@
+> **Note**: this document is the development narrative of mini-spring, and its
+> code snippets are from the original Java implementation. The repository has
+> since been ported to TypeScript with the same behaviour; the code that
+> actually runs lives under `src/`.
+
 # [Basics: IoC](#basics-ioc)
 ## [Simplest Bean Container](#simplest-bean-container)
 > Code branch: simple-bean-container

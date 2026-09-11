@@ -5,3 +5,34 @@ target/
 *.iml
 *.ipr
 *.iws
+### Node / TypeScript ###
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Test / coverage output
+coverage/
+.vitest/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+### OS / Editors ###
+.DS_Store
+.vscode/
+*.swp
+
+### Task harness ###
+instruction.md
+truth.md
+test.patch
+fix.patch
+golden.patch
